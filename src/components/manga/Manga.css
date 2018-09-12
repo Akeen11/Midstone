@@ -1,0 +1,13 @@
+.title {
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: space-evenly;
+    background-color: black
+}
+
+.manga {
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: space-evenly;
+    background-color: black
+}

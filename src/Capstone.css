@@ -1,0 +1,32 @@
+.Capstone {
+  text-align: center;
+}
+
+.Capstone-logo {
+  animation: Capstone-logo-spin infinite 3s linear;
+  height: 80px;
+}
+
+.Capstone-header {
+  background-color: #222;
+  height: 150px;
+  padding: 20px;
+  color: white;
+}
+
+.Capstone-title {
+  font-size: 1.5em;
+}
+
+.Capstone-intro {
+  font-size: large;
+}
+
+@keyframes Capstone-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+.logoutButton {
+  justify-content: right
+}
