@@ -15,13 +15,6 @@ export default Object.create(null, {
         }
     },
 
-    getImages: {
-        value: (im) => {
-            return fetch(`https://cdn.mangaeden.com/mangasimg/${im}`)
-            .then(result => result.json())
-        }
-    },
-
     delete: {
         value: (resource, id) => {
             return fetch(`${remoteURL}/${resource}/${id}`, {
@@ -42,19 +35,10 @@ export default Object.create(null, {
             .then(result => result.json())
         }
     },
-
-    edit: {
-        value: (resource, id, item) => {
-            console.log(item, "item")
-            console.log(`${remoteURL}/${resource}/${id}`)
-            return fetch(`${remoteURL}/${resource}/${id}`, {
-                method: "PATCH",
-                headers: {
-                    "Content-Type": "application/json"
-                },
-                body: JSON.stringify(item)
-            })
-            .then(result => result.json())
+    getChapters:  {
+        value: (chapterId) => {
+            return fetch(`https://www.mangaeden.com/api/chapter/${chapterId}`)
+                .then(result => result.json())
         }
     }
 })

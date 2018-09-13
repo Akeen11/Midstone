@@ -27,6 +27,6 @@
   to { transform: rotate(360deg); }
 }
 
-.logoutButton {
-  justify-content: right
+#root {
+  background-color: black
 }

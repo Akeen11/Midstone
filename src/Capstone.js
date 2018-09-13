@@ -3,21 +3,16 @@ import logo from './goku-head.png';
 import './Capstone.css';
 import "bootstrap/dist/css/bootstrap.min.css"
 import ApplicationViews from './ApplicationViews';
+import Logout from './components/logout/Logout'
 
 
-class Capstone extends Component {
+export default class Capstone extends Component {
   render() {
     return (
       <div className="Capstone">
         <header className="Capstone-header">
           <img src={logo} className="Capstone-logo" alt="logo" />
-          <div>
-            <button onClick={() => {
-              localStorage.clear("credentials")
-              document.location.href = 'http://localhost:3000'
-            }}
-              className="logoutButton">Logout</button>
-          </div>
+          <Logout />
         </header>
         <ApplicationViews />
       </div>
@@ -25,4 +20,4 @@ class Capstone extends Component {
   }
 }
 
-export default Capstone;
+

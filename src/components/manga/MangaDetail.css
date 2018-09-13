@@ -1,0 +1,14 @@
+.card-img-top {
+    align-self: center;
+    padding: 0 40% 5%;
+    size: 500px 900px
+}
+
+.detailCard {
+    background-color: black;
+    color: white
+}
+
+.detailCarousel {
+    padding-bottom: 10%
+}

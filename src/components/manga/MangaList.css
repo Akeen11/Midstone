@@ -1,0 +1,19 @@
+.title {
+    padding-top: 5%;
+    padding-bottom: 5%;
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: space-evenly;
+    background-color: black
+}
+
+.image {
+    align-self: center;
+    /* padding: 0 15%; */
+    size: 500px 900px
+}
+
+.cards {
+    padding: 3%;
+    margin: 2%;
+}
