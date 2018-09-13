@@ -21,7 +21,7 @@
       ],
       "h": 1330030,
       "i": "558802a9719a167572253c6d",
-      "im": "/images/dragon-ball-super.jpg",
+      "im": "/cardimages/dragon-ball-super.jpg",
       "ld": 1532216696,
       "s": 1,
       "t": "Dragon Ball Super"
@@ -38,7 +38,7 @@
       ],
       "h": 6413613,
       "i": "541aabc045b9ef49009d69b6",
-      "im": "/images/my-hero-academia.png",
+      "im": "/cardimages/my-hero-academia.png",
       "ld": 1536316355,
       "s": 1,
       "t": "Boku no Hero Academia"
@@ -57,7 +57,7 @@
       ],
       "h": 789734,
       "i": "5224e32c45b9effc5b1efec9",
-      "im": "/images/attack-on-titan.jpg",
+      "im": "/cardimages/attack-on-titan.jpg",
       "ld": 1534976084,
       "s": 1,
       "t": "Attack On Titan - Before The Fall"
@@ -74,7 +74,7 @@
       ],
       "h": 178731242,
       "i": "4e70e9efc092255ef7004274",
-      "im": "/images/bleach.jpg",
+      "im": "/cardimages/bleach.jpg",
       "ld": 1471521618,
       "s": 2,
       "t": "Bleach"
@@ -94,7 +94,7 @@
       ],
       "h": 6462855,
       "i": "4e70ea06c092255ef700479d",
-      "im": "/images/fullmetal-alchemist.jpg",
+      "im": "/cardimages/fullmetal-alchemist.jpg",
       "ld": 1285293016,
       "s": 2,
       "t": "Fullmetal Alchemist"
@@ -114,7 +114,7 @@
       ],
       "h": 9697395,
       "i": "51746b2b45b9efb4127ba968",
-      "im": "/images/inuyasha.jpg",
+      "im": "/cardimages/inuyasha.jpg",
       "ld": 1366595684,
       "s": 2,
       "t": "Inuyasha"
@@ -131,7 +131,7 @@
       ],
       "h": 208978642,
       "i": "4e70ea10c092255ef7004aa2",
-      "im": "/images/one-piece.png",
+      "im": "/cardimages/one-piece.png",
       "ld": 1535715173,
       "s": 1,
       "t": "One Piece"
@@ -146,7 +146,7 @@
       ],
       "h": 182,
       "i": "5aada394719a166dc4448455",
-      "im": "/images/love-live-dj.png",
+      "im": "/cardimages/love-live-dj.png",
       "ld": 1521371675,
       "s": 2,
       "t": "Love Live! dj - Mask of Smiles"
@@ -165,7 +165,7 @@
       ],
       "h": 806,
       "i": "5aada307719a166dc444823a",
-      "im": "/images/rapid-fire.jpg",
+      "im": "/cardimages/rapid-fire.jpg",
       "ld": 1522067122,
       "s": 2,
       "t": "Rapid Fire"
@@ -180,7 +180,7 @@
       ],
       "h": 3510,
       "i": "5aada574719a166dc4448b07",
-      "im": "/images/lovely-bokhee-ssi.png",
+      "im": "/cardimages/lovely-bokhee-ssi.png",
       "ld": 1521374395,
       "s": 2,
       "t": "Lovely Bokhee-ssi"
@@ -196,7 +196,7 @@
       ],
       "h": 286,
       "i": "5aadabdb719a166dc4449eb0",
-      "im": "/images/watashi-ga-iutoori-ni-naru.jpg",
+      "im": "/cardimages/watashi-ga-iutoori-ni-naru.jpg",
       "ld": 1521666314,
       "s": 1,
       "t": "Watashi ga Iutoori ni naru"
@@ -212,7 +212,7 @@
       ],
       "h": 1508,
       "i": "5aadaea7719a166dc444a3f6",
-      "im": "/images/rabukome-no-baka.jpg",
+      "im": "/cardimages/rabukome-no-baka.jpg",
       "ld": 1521819059,
       "s": 2,
       "t": "Rabukome no Baka"
@@ -226,7 +226,7 @@
       ],
       "h": 936,
       "i": "5aadaf9e719a166dc444a579",
-      "im": "/images/wish-fulfillment.jpg",
+      "im": "/cardimages/wish-fulfillment.jpg",
       "ld": 1522074938,
       "s": 2,
       "t": "Wish Fulfillment"
@@ -241,7 +241,7 @@
       ],
       "h": 0,
       "i": "5aadafb8719a166dc444a5a1",
-      "im": "/images/sekai-no-owari-to-yoakemae.png",
+      "im": "/cardimages/sekai-no-owari-to-yoakemae.png",
       "s": 2,
       "t": "Sekai no Owari to Yoakemae"
     },
@@ -256,7 +256,7 @@
       ],
       "h": 1508,
       "i": "5aadb085719a166dc444a716",
-      "im": "/images/hana-o-meshimase.jpg",
+      "im": "/cardimages/hana-o-meshimase.jpg",
       "ld": 1522716295,
       "s": 2,
       "t": "Hana o Meshimase"
@@ -275,7 +275,7 @@
       ],
       "h": 2444,
       "i": "5aadb289719a166dc444ac0d",
-      "im": "/images/mononote-edo-kiketsu-ninja-emaki.jpg",
+      "im": "/cardimages/mononote-edo-kiketsu-ninja-emaki.jpg",
       "ld": 1521390006,
       "s": 2,
       "t": "Mononote: Edo Kiketsu Ninja Emaki"
@@ -290,7 +290,7 @@
       ],
       "h": 1378,
       "i": "5aadb336719a166dc444ad7c",
-      "im": "/images/otonari-wa-1-ken-de-2-do-oishii.jpg",
+      "im": "/cardimages/otonari-wa-1-ken-de-2-do-oishii.jpg",
       "ld": 1521987197,
       "s": 2,
       "t": "Otonari wa 1-ken de 2-do oishii"
@@ -305,7 +305,7 @@
       ],
       "h": 2418,
       "i": "5aadac82719a166dc444a027",
-      "im": "/images/too-many-gods-here.jpg",
+      "im": "/cardimages/too-many-gods-here.jpg",
       "ld": 1521379988,
       "s": 1,
       "t": "Too Many Gods Here!"
@@ -319,7 +319,7 @@
       ],
       "h": 546,
       "i": "5aadb2b2719a166dc444ac6f",
-      "im": "/images/ikinokore-shachiku-chan.jpg",
+      "im": "/cardimages/ikinokore-shachiku-chan.jpg",
       "ld": 1525395113,
       "s": 1,
       "t": "Ikinokore! Shachiku-chan"
@@ -333,7 +333,7 @@
       ],
       "h": 910,
       "i": "5aadb550719a166dc444b1ec",
-      "im": "/images/junjou-haraguro-kareshi.png",
+      "im": "/cardimages/junjou-haraguro-kareshi.png",
       "ld": 1521381555,
       "s": 2,
       "t": "Junjou Haraguro Kareshi"
@@ -351,7 +351,7 @@
       ],
       "h": 5096,
       "i": "5aadb680719a166dc444b4e4",
-      "im": "/images/merikuron-no-namida.png",
+      "im": "/cardimages/merikuron-no-namida.png",
       "ld": 1521896727,
       "s": 2,
       "t": "Merikuron no Namida"
@@ -365,7 +365,7 @@
       ],
       "h": 442,
       "i": "5aadb0cf719a166dc444a797",
-      "im": "/images/nicochuu.jpg",
+      "im": "/cardimages/nicochuu.jpg",
       "ld": 1521382478,
       "s": 1,
       "t": "Nicochuu"
@@ -380,7 +380,7 @@
       ],
       "h": 624,
       "i": "5aadb4ec719a166dc444b12e",
-      "im": "/images/boku-no-petto-ni-narinasai.jpg",
+      "im": "/cardimages/boku-no-petto-ni-narinasai.jpg",
       "ld": 1521462592,
       "s": 2,
       "t": "Boku no Petto ni Narinasai."
@@ -395,7 +395,7 @@
       ],
       "h": 1612,
       "i": "5aadaf6d719a166dc444a528",
-      "im": "/images/seishun-note.jpg",
+      "im": "/cardimages/seishun-note.jpg",
       "ld": 1521489649,
       "s": 2,
       "t": "Seishun Note"
@@ -412,7 +412,7 @@
       ],
       "h": 20930,
       "i": "5aada279719a166dc4447ffd",
-      "im": "/images/transparent-cohabitation.jpg",
+      "im": "/cardimages/transparent-cohabitation.jpg",
       "ld": 1521375367,
       "s": 2,
       "t": "Transparent Cohabitation"
@@ -428,7 +428,7 @@
       ],
       "h": 780,
       "i": "5aadb0a9719a166dc444a74f",
-      "im": "/images/zettai-fukujuu-idol.jpg",
+      "im": "/cardimages/zettai-fukujuu-idol.jpg",
       "ld": 1521382346,
       "s": 2,
       "t": "Zettai Fukujuu Idol"
@@ -446,7 +446,7 @@
       ],
       "h": 14092,
       "i": "5aadb613719a166dc444b3bb",
-      "im": "/images/mia-lost-in-operation.png",
+      "im": "/cardimages/mia-lost-in-operation.png",
       "ld": 1521393821,
       "s": 1,
       "t": "MIA: Lost in Operation"
@@ -461,7 +461,7 @@
       ],
       "h": 3874,
       "i": "5aadb599719a166dc444b2a3",
-      "im": "/images/miracle-hero-nim.jpg",
+      "im": "/cardimages/miracle-hero-nim.jpg",
       "ld": 1521813943,
       "s": 2,
       "t": "Miracle! Hero-nim"
@@ -476,7 +476,7 @@
       ],
       "h": 1924,
       "i": "5aadb097719a166dc444a736",
-      "im": "/images/welcome-to-the-3rd-dimension.jpg",
+      "im": "/cardimages/welcome-to-the-3rd-dimension.jpg",
       "ld": 1521583038,
       "s": 1,
       "t": "Welcome to the 3rd Dimension!"
@@ -494,7 +494,7 @@
       ],
       "h": 48052,
       "i": "5218b3e845b9efa988b709a5",
-      "im": "/images/umineko-no-naku-koro-ni-episode-3.jpg",
+      "im": "/cardimages/umineko-no-naku-koro-ni-episode-3.jpg",
       "ld": 1377822074,
       "s": 2,
       "t": "Umineko no Naku Koro ni Episode 3"

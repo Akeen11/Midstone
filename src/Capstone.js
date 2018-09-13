@@ -4,6 +4,7 @@ import './Capstone.css';
 import "bootstrap/dist/css/bootstrap.min.css"
 import ApplicationViews from './ApplicationViews';
 import Logout from './components/logout/Logout'
+import Footer from './components/footer/Footer'
 
 
 export default class Capstone extends Component {
@@ -15,6 +16,7 @@ export default class Capstone extends Component {
           <Logout />
         </header>
         <ApplicationViews />
+        <Footer />
       </div>
     );
   }

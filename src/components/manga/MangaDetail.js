@@ -74,7 +74,7 @@ const items = [
             });
 
             return (
-                <React.Fragment className="details">
+                <div className="details">
 
                     <Card id={`manga--${manga.i}`} key={manga.i} className="detailCard">
                         <h1>{manga.a}</h1>
@@ -90,7 +90,7 @@ const items = [
                         <CarouselControl direction="next" directionText="Next" onClickHandler={this.next} className="detailCarousel"/>
                     </Carousel>
 
-                </React.Fragment>
+                </div>
             );
         }
     }
