@@ -4,10 +4,6 @@
     flex-wrap: wrap;
     display: flex;
     justify-content: space-evenly;
-    background-image: url(https://st-listas.20minutos.es/images/2013-02/355878/list_640px.jpg?1361572859);
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-size: cover;
 }
 
 .image {
@@ -19,4 +15,6 @@
 .cards {
     padding: 3%;
     margin: 2%;
+    background-color: black;
+    color: white
 }

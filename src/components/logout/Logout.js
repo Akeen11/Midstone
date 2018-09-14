@@ -7,11 +7,11 @@ export default class Logout extends Component {
 
         return (
 
-            <div className="logoutButton">
+            <div className="logout">
                 <button onClick={() => {
                     localStorage.clear("credentials")
                     document.location.href = 'http://localhost:3000'
-                }}>Logout</button>
+                }} className="logoutButton">Logout</button>
             </div>
 
         )

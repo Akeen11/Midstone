@@ -8,8 +8,8 @@ import registerServiceWorker from './registerServiceWorker';
 
 ReactDOM.render(
     <Router>
-    <Capstone />
+        <Capstone />
     </Router>
     , document.getElementById('root'));
 
-    registerServiceWorker();
+registerServiceWorker();
