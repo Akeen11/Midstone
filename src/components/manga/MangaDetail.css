@@ -1,12 +1,12 @@
 .card-img-top {
     align-self: center;
-    padding: 0 40% 5%;
-    size: 500px 900px
 }
 
 .detailCard {
+    margin: 0 35% ;
+    margin-bottom: 10%;
     background-color: black;
-    color: white
+    color: whitesmoke
 }
 
 .detailCarousel {
