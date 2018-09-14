@@ -1,5 +1,8 @@
 .homeButtons {
+    margin-top: 20%;
     display: flex;
     justify-content: space-evenly;
-    flex: auto
+    flex: auto;
+    height: -webkit-fill-available;
+    max-height: 25em
 }

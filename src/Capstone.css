@@ -3,8 +3,12 @@
 }
 
 .Capstone-logo {
-  animation: Capstone-logo-spin infinite 3s linear;
-  height: 80px;
+  animation: Capstone-logo-spin infinite 5s linear;
+  height: 120px;
+}
+
+.Capstone-logo:hover {
+  content: url(https://mbtskoudsalg.com/images250_/goku-ultra-instinct-png.png);
 }
 
 .Capstone-header {

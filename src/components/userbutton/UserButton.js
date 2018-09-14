@@ -1,7 +1,10 @@
-import React, { Redirect } from 'react';
+import React from 'react';
 import { Dropdown, DropdownToggle, DropdownMenu, DropdownItem } from 'reactstrap';
 
-export default class Example extends React.Component {
+export default class UserButton extends React.Component {
+
+    isAuthenticated = () => localStorage.getItem("credentials") !== null
+
     constructor(props) {
         super(props);
 
@@ -21,21 +24,26 @@ export default class Example extends React.Component {
 
         const user = JSON.parse(localStorage.getItem("credentials"))
 
-        if (user) {
-            return (
-                <Dropdown isOpen={this.state.dropdownOpen} toggle={this.toggle}>
-                    <DropdownToggle caret>
-                        {user.username}
-                    </DropdownToggle>
-                    <DropdownMenu>
-                        <DropdownItem header>Settings:</DropdownItem>
-                        <DropdownItem divider />
-                        <DropdownItem>Another Action</DropdownItem>
-                    </DropdownMenu>
-                </Dropdown>
-            );
-        } else {
-            return <Redirect to="/" />
-        }
+        return (
+            <div>
+                {this.isAuthenticated() &&
+                    <Dropdown isOpen={this.state.dropdownOpen} toggle={this.toggle} >
+                        <DropdownToggle caret>
+                            {user.username}
+                        </DropdownToggle>
+                        <DropdownMenu>
+                            <DropdownItem header>Settings:</DropdownItem>
+                            <DropdownItem divider />
+                            <DropdownItem
+                                onClick={() => {
+                                    document.location.href = 'http://localhost:3000/user'
+                                }
+                                }>My Page</DropdownItem>
+                        </DropdownMenu>
+                    </Dropdown>
+
+                }
+            </div>
+        )
     }
 }

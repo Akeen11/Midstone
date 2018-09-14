@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import logo from './goku-head.png';
+import logo from './goku-ultra-instinct.png';
 import './Capstone.css';
 import "bootstrap/dist/css/bootstrap.min.css"
 import ApplicationViews from './ApplicationViews';
