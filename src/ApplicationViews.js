@@ -6,10 +6,12 @@ import Login from './components/login/Login'
 import Register from './components/register/Register'
 import MangaList from './components/manga/MangaList'
 import MangaDetail from './components/manga/MangaDetail'
+import UserPage from './components/userpage/UserPage'
 
 export default class ApplicationViews extends Component {
 
     isAuthenticated = () => localStorage.getItem("credentials") !== null
+
 
     state = {
         users: [],
@@ -77,6 +79,13 @@ export default class ApplicationViews extends Component {
                     if (this.isAuthenticated()) {
                         return <MangaDetail {...props}
                             manga={this.state.manga} />
+                    } else {
+                        return <Redirect to="/" />
+                    }
+                }} />
+                <Route exact path="/user" render={(props) => {
+                    if (this.isAuthenticated()) {
+                        return <UserPage {...props} />
                     } else {
                         return <Redirect to="/" />
                     }
