@@ -1,3 +1,3 @@
-#AniManga
+#AniManga#
 
 ![Capture](Capture.PNG)
