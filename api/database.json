@@ -7,6 +7,18 @@
       "id": 1
     }
   ],
+  "detail": [
+    {
+      "rating": 0,
+      "favorite": false,
+      "id": 1
+    },
+    {
+      "rating": 3,
+      "favorite": false,
+      "id": 2
+    }
+  ],
   "manga": [
     {
       "a": "dragon-ball-super",

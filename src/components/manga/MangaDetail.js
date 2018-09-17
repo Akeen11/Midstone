@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import { Card, CardImg, CardBody, Carousel, CarouselItem, CarouselControl, CarouselIndicators, CarouselCaption } from 'reactstrap';
+import StarRating from '../rating/Rating'
 import './MangaDetail.css'
 
 const items = [
@@ -81,6 +82,9 @@ class Example extends Component {
                     <CardImg top width="50%" src={manga.im} alt="Card image cap" />
                     <hr />
                     <CardBody>
+                        <StarRating onClick={() => {
+                            
+                        }}/>
                         <h2>{manga.d}</h2>
                     </CardBody>
                 </Card>

@@ -1,6 +1,7 @@
 import React, { Component } from 'react'
 import { Card, CardBody, CardTitle } from 'reactstrap';
 import { Link } from "react-router-dom"
+import SearchBar from "../searchbar/SearchBar";
 import './MangaList.css'
 
 export default class MangaList extends Component {
@@ -9,19 +10,22 @@ export default class MangaList extends Component {
     render() {
 
         return (
-            <section className="title">
-                {
-                    this.props.manga.map(manga =>
-                        <Card id={`manga--${manga.i}`} key={manga.i} className="cards">
-                            <img width="100%" src={manga.im} alt="Card cap" className="image" />
-                            <CardBody>
-                                <CardTitle>{manga.a}</CardTitle>
-                                <Link className="cardnav-link" to={`/manga/${manga.i}`}>Details</Link>
-                            </CardBody>
-                        </Card>
-                    )
-                }
-            </section>
+            <React.Fragment>
+                <SearchBar />
+                <section className="title">
+                    {
+                        this.props.manga.map(manga =>
+                            <Card id={`manga--${manga.i}`} key={manga.i} className="cards">
+                                <img width="100%" src={manga.im} alt="Card cap" className="image" />
+                                <CardBody>
+                                    <CardTitle>{manga.a}</CardTitle>
+                                    <Link className="cardnav-link" to={`/manga/${manga.i}`}>Details</Link>
+                                </CardBody>
+                            </Card>
+                        )
+                    }
+                </section>
+            </React.Fragment>
         )
     }
 }
