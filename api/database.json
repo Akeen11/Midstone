@@ -9,14 +9,28 @@
   ],
   "detail": [
     {
-      "rating": 0,
-      "favorite": false,
+      "rating": "0",
+      "isFavorited": "false",
+      "mangaId": "558802a9719a167572253c6d",
+      "id": 0
+    },
+    {
+      "rating": "0",
+      "isFavorited": "false",
+      "mangaId": "541aabc045b9ef49009d69b6",
       "id": 1
     },
     {
-      "rating": 3,
-      "favorite": false,
+      "rating": "0",
+      "isFavorited": "false",
+      "mangaId": "5224e32c45b9effc5b1efec9",
       "id": 2
+    },
+    {
+      "rating": "0",
+      "isFavorited": "false",
+      "mangaId": "4e70ea06c092255ef700479d",
+      "id": 3
     }
   ],
   "manga": [
@@ -203,7 +217,7 @@
       "i": "5aada574719a166dc4448b07",
       "im": "/cardimages/lovely-bokhee-ssi.png",
       "ld": 1521374395,
-      "d": "Will this love ever come true? Exiting their awkward first loves",
+      "d": "Will this love ever come true? Exiting their awkward first loves.",
       "s": 2,
       "t": "Lovely Bokhee-ssi"
     },
@@ -400,7 +414,7 @@
       "i": "5aadb0cf719a166dc444a797",
       "im": "/cardimages/nicochuu.jpg",
       "ld": 1521382478,
-      "d": "In addition to 'Love/Death', about a couple who clash over the limits of their feelings, Kuzushiro's latest volume also includes Nicochuuthe story of a delinquent with straight As and her admired sempai with a good bit of bark but only gentle bites.",
+      "d": "In addition to 'Love/Death', about a couple who clash over the limits of their feelings, Kuzushiro's latest volume also includes, Nicochuu, the story of a delinquent with straight A's and her admired sempai with a good bit of bark but only gentle bites.",
       "s": 1,
       "t": "Nicochuu"
     },
@@ -450,7 +464,7 @@
       "i": "5aada279719a166dc4447ffd",
       "im": "/cardimages/transparent-cohabitation.jpg",
       "ld": 1521375367,
-      "d": "The risky cohabitation between a ghost and a human that seems touchable, but isn't",
+      "d": "The risky cohabitation between a ghost and a human that seems touchable, but isn't.",
       "s": 2,
       "t": "Transparent Cohabitation"
     },

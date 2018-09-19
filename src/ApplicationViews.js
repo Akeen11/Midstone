@@ -16,7 +16,8 @@ export default class ApplicationViews extends Component {
     state = {
         users: [],
         manga: [],
-        image: {},
+        detail: [],
+        // image: {},
         isLoaded: false
     }
 
@@ -38,6 +39,12 @@ export default class ApplicationViews extends Component {
             user: user
         }))
 
+    editDetail = (id, detail) => DataManager.edit("detail", id, detail)
+        .then(() => DataManager.getAll("detail"))
+        .then(detail => this.setState({
+            detail: detail
+        }))
+
     componentDidMount() {
 
         const newState = {}
@@ -49,10 +56,15 @@ export default class ApplicationViews extends Component {
                 DataManager.getAll("manga")
                     .then(allManga => {
                         newState.manga = allManga
-                    })
-                    .then(() => {
-                        this.setState(newState)
-                        console.log(newState)
+                    }).then(() => {
+                        DataManager.getAll("detail")
+                            .then(allDetail => {
+                                newState.detail = allDetail
+                            })
+                            .then(() => {
+                                this.setState(newState)
+                                console.log(newState)
+                            })
                     })
             })
     }
@@ -78,7 +90,8 @@ export default class ApplicationViews extends Component {
                 <Route exact path="/manga/:mangaId" render={(props) => {
                     if (this.isAuthenticated()) {
                         return <MangaDetail {...props}
-                            manga={this.state.manga} />
+                            manga={this.state.manga} 
+                            editDetail={this.editDetail} />
                     } else {
                         return <Redirect to="/" />
                     }

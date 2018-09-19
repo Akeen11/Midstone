@@ -4,14 +4,21 @@ export default Object.create(null, {
     get: {
         value: (resource, id) => {
             return fetch(`${remoteURL}/${resource}/${id}`)
-            .then(result => result.json())
+                .then(result => result.json())
+        }
+    },
+
+    getReview: {
+        value: (resource, id) => {
+            return fetch(`${remoteURL}/${resource}?mangaId=${id}`)
+                .then(result => result.json())
         }
     },
 
     getAll: {
         value: (resource) => {
             return fetch(`${remoteURL}/${resource}`)
-            .then(result => result.json())
+                .then(result => result.json())
         }
     },
 
@@ -32,10 +39,23 @@ export default Object.create(null, {
                 },
                 body: JSON.stringify(item)
             })
+                .then(result => result.json())
+        }
+    },
+    edit: {
+        value: (resource, id, item) => {
+            console.log(item, "item")
+            return fetch(`${remoteURL}/${resource}/${id}`, {
+                method: "PATCH",
+                headers: {
+                    "Content-Type": "application/json"
+                },
+                body: JSON.stringify(item)
+            })
             .then(result => result.json())
         }
     },
-    getChapters:  {
+    getChapters: {
         value: (chapterId) => {
             return fetch(`https://www.mangaeden.com/api/chapter/${chapterId}`)
                 .then(result => result.json())
