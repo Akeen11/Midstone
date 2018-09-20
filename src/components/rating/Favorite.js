@@ -6,10 +6,14 @@ import './Favorite.css'
 export default class Favorite extends Component {
 
     render() {
-
         const detail = this.props.detail.find(
             detail => detail.mangaId === this.props.match.params.mangaId
         ) || {}
+
+        // const icon = ""
+        // if(detail) {
+        //     icon = (this.props.detail.isFavorited) ? "favorited" : ""
+        // }
 
         const favorite = { isFavorited: true }
 
@@ -17,12 +21,13 @@ export default class Favorite extends Component {
 
             <div>
                 <h2>Favorite:</h2>
-                <FontAwesomeIcon 
-                    icon={faHeart} 
-                    onClick={() =>  
-                        this.props.editDetail(detail.id, {isFavorited: favorite})
+                <FontAwesomeIcon
+                    icon={faHeart}
+                    onClick={() =>
+                        this.props.editDetail(detail.id, favorite)
                     }
-                    className="heartIcon"/>
+                    // className={`${icon}`}
+                    id="heartIcon" />
             </div>
 
         )

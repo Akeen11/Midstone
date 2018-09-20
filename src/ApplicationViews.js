@@ -41,8 +41,8 @@ export default class ApplicationViews extends Component {
 
     editDetail = (id, detail) => DataManager.edit("detail", id, detail)
         .then(() => DataManager.getAll("detail"))
-        .then(detail => this.setState({
-            detail: detail
+        .then(details => this.setState({
+            detail: details
         }))
 
     componentDidMount() {
@@ -91,6 +91,7 @@ export default class ApplicationViews extends Component {
                     if (this.isAuthenticated()) {
                         return <MangaDetail {...props}
                             manga={this.state.manga} 
+                            detail={this.state.detail}
                             editDetail={this.editDetail} />
                     } else {
                         return <Redirect to="/" />

@@ -8,10 +8,10 @@ export default class MangaList extends Component {
 
 
     render() {
-
+        console.log(this.props)
         return (
             <React.Fragment>
-                <SearchBar />
+                <SearchBar {...this.props}/>
                 <section className="title">
                     {
                         this.props.manga.map(manga =>

@@ -34,16 +34,16 @@ export default class StarRating extends Component {
         DataManager.getReview('detail', this.props.match.params.mangaId)
             .then(rating => {
                 if (rating) {
-                    this.setState({ rating: rating[rating.length - 1].rating || 0})
+                    this.setState({ rating: rating[rating]})
                 }
             })
     }
-
     render() {
+        console.log(this.props.mangaId)
 
         return (
             <div className="ratings">
-                <div className="stars">
+                <div id={this.props.mangaId} className="stars">
                     <h2>Rate:</h2>
                     <StarRatingComponent
                         name='1'

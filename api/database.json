@@ -10,27 +10,39 @@
   "detail": [
     {
       "rating": "0",
-      "isFavorited": "false",
+      "isFavorited": true,
       "mangaId": "558802a9719a167572253c6d",
       "id": 0
     },
     {
       "rating": "0",
-      "isFavorited": "false",
+      "isFavorited": false,
       "mangaId": "541aabc045b9ef49009d69b6",
       "id": 1
     },
     {
       "rating": "0",
-      "isFavorited": "false",
+      "isFavorited": false,
       "mangaId": "5224e32c45b9effc5b1efec9",
       "id": 2
     },
     {
       "rating": "0",
-      "isFavorited": "false",
+      "isFavorited": false,
+      "mangaId": "5aada307719a166dc444823a",
+      "id": 4
+    },
+    {
+      "rating": "0",
+      "isFavorited": true,
       "mangaId": "4e70ea06c092255ef700479d",
       "id": 3
+    },
+    {
+      "rating": 3,
+      "isFavorited": false,
+      "mangaId": "558802a9719a167572253c6d",
+      "id": 5
     }
   ],
   "manga": [
