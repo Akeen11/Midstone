@@ -1,15 +1,17 @@
 import React, { Component } from 'react'
 import './SearchBar.css'
 
-export default class Search extends Component {
+export default class SearchBar extends Component {
 
     onKeyDown(evt) {
-        console.log(evt.target.value)
+        this.props.manga.includes(
+            this.props.manga.map(manga => 
+                manga.a === evt.target.value))
         console.log(this.props.manga)
-        this.props.manga.a.includes(evt.target.value)
     }
 
     render() {
+        
 
 
         return (
@@ -20,7 +22,6 @@ export default class Search extends Component {
                         <input type="search" placeholder="Search" id="search" onInput={e => this.onKeyDown(e)} />
                         <span className="input-clear-button"></span>
                     </div>
-                    <span className="searchbar-disable-button">Cancel</span>
                 </div>
             </form>
 

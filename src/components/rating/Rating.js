@@ -39,7 +39,6 @@ export default class StarRating extends Component {
             })
     }
     render() {
-        console.log(this.props.match.params.mangaId)
         const { rating } = this.state;
 
         return (

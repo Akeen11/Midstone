@@ -62,7 +62,7 @@ export default class ApplicationViews extends Component {
                             })
                             .then(() => {
                                 this.setState(newState)
-                                console.log(newState)
+                                // console.log(newState)
                             })
                     })
             })

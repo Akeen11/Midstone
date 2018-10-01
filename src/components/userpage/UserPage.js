@@ -14,6 +14,8 @@ export default class UserPage extends Component {
             detail => detail.mangaId === this.props.match.params.mangaId
         ) || {}
 
+        console.log(detail.isFavorited)
+
         const favorite = { isFavorited: false }
 
         const user = JSON.parse(localStorage.getItem("credentials"))
@@ -33,36 +35,38 @@ export default class UserPage extends Component {
                     <h3>Favorites:</h3>
                 </div>
                 <div className="allDetails">
-                    <div className="theDetails">
-                        <img src={`/cardimages/my-hero-academia.png`} alt="" />
-                        <div>
-                            <p>Unfavorite:</p>
-                            <FontAwesomeIcon
-                                icon={faHeartbeat}
-                                onClick={() =>
-                                    this.props.editDetail(detail.id, favorite)
-                                }
-                                id="heartIcon" />
-                        </div>
-
-                    </div>
-                    <div className="theDetails">
-                        <img src={`/cardimages/dragon-ball-super.jpg`} alt="" />
-                        <div>
-                            <p>Unfavorite:</p>
-                            <FontAwesomeIcon
-                                icon={faHeartbeat}
-                                onClick={() =>
-                                    this.props.editDetail(detail.id, favorite)
-                                }
-                                id="heartIcon" />
-                        </div>
-
-                    </div>
+                    {
+                        this.props.detail.map(detail => {
+                            if (detail.isFavorited === true) {
+                                return <div className="theDetails" id={`detail--${detail.mangaId}`} key={detail.mangaId} >
+                                    <img src={`/cardimages/dragon-ball-super.jpg`} alt="" />
+                                    <div>
+                                        <p>Unfavorite:</p>
+                                        <FontAwesomeIcon
+                                            icon={faHeartbeat}
+                                            onClick={() =>
+                                                this.props.editDetail(detail.id, favorite)
+                                            }
+                                            id="heartIcon" />
+                                    </div>
+                                    <br />
+                                    <br />
+                                </div>
+                            } else {
+                                return <div key={detail.mangaId}>
+                                    <br />
+                                    <br />
+                                    <br />
+                                    <br />
+                                    <br />
+                                    <br />
+                                    <br />
+                                    <br />
+                                    <br />
+                                </div>
+                            }
+                        })}
                 </div>
-                <br />
-                <br />
-
             </div>
 
         )
