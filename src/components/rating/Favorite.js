@@ -10,24 +10,31 @@ export default class Favorite extends Component {
             detail => detail.mangaId === this.props.match.params.mangaId
         ) || {}
 
-        const icon = ""
-
         const favorite = { isFavorited: true }
-
-        return (
-
-            <div>
+        if (detail.isFavorited === true) {
+            return <React.Fragment>
                 <h2>Favorite:</h2>
                 <FontAwesomeIcon
                     icon={faHeart}
                     onClick={() =>
                         this.props.editDetail(detail.id, favorite)
                     }
-                    className= { `${icon}` }
+                    className="favorited"
+                    id="heartIcon" />
+            </React.Fragment>
+        } else {
+            return <div>
+                <h2>Favorite:</h2>
+                <FontAwesomeIcon
+                    icon={faHeart}
+                    onClick={() =>
+                        this.props.editDetail(detail.id, favorite)
+                    }
+                    className="heart"
                     id="heartIcon" />
             </div>
+        }
 
-        )
     }
 
 }

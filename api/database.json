@@ -10,7 +10,7 @@
   "detail": [
     {
       "rating": 3,
-      "isFavorited": true,
+      "isFavorited": false,
       "mangaId": "558802a9719a167572253c6d",
       "id": 1
     },
@@ -187,6 +187,18 @@
       "isFavorited": false,
       "mangaId": "5aadb680719a166dc444b4e4",
       "id": 36
+    },
+    {
+      "rating": 2,
+      "isFavorited": false,
+      "mangaId": "558802a9719a167572253c6d",
+      "id": 37
+    },
+    {
+      "rating": 5,
+      "isFavorited": false,
+      "mangaId": "558802a9719a167572253c6d",
+      "id": 38
     }
   ],
   "manga": [
@@ -207,7 +219,24 @@
       "ld": 1532216696,
       "d": "Dragon Ball Super will follow the aftermath of Goku's fierce battle with Majin Buu, as he attempts to maintain earth's fragile peace.",
       "s": 1,
-      "t": "Dragon Ball Super"
+      "t": "Dragon Ball Super",
+      "p": [
+        "/mangaimages/dbs page 1.jpg",
+        "/mangaimages/dbs page 2.jpg",
+        "/mangaimages/dbs page 3.jpg",
+        "/mangaimages/dbs page 4.jpg",
+        "/mangaimages/dbs page 5.jpg",
+        "/mangaimages/dbs page 6.jpg",
+        "/mangaimages/dbs page 7.jpg",
+        "/mangaimages/dbs page 8.jpg",
+        "/mangaimages/dbs page 9.jpg",
+        "/mangaimages/dbs page 10.jpg",
+        "/mangaimages/dbs page 11.jpg",
+        "/mangaimages/dbs page 12.jpg",
+        "/mangaimages/dbs page 13.jpg",
+        "/mangaimages/dbs page 14.jpg",
+        "/mangaimages/dbs page 15.jpg"
+      ]
     },
     {
       "a": "boku-no-hero-academia",
@@ -225,7 +254,24 @@
       "ld": 1536316355,
       "d": "The story is set in the modern day, except people with special powers have become commonplace throughout the world. A boy named Izuku Midoriya has no powers, but he still dreams.",
       "s": 1,
-      "t": "Boku no Hero Academia"
+      "t": "Boku no Hero Academia",
+      "p": [
+        "/mangaimages/boku-no-hero-academia-page-1.jpg",
+        "/mangaimages/boku-no-hero-academia-page-2.jpg",
+        "/mangaimages/boku-no-hero-academia-page-3.jpg",
+        "/mangaimages/boku-no-hero-academia-page-4.jpg",
+        "/mangaimages/boku-no-hero-academia-page-5.jpg",
+        "/mangaimages/boku-no-hero-academia-page-6.jpg",
+        "/mangaimages/boku-no-hero-academia-page-7.jpg",
+        "/mangaimages/boku-no-hero-academia-page-8.jpg",
+        "/mangaimages/boku-no-hero-academia-page-9.jpg",
+        "/mangaimages/boku-no-hero-academia-page-10.jpg",
+        "/mangaimages/boku-no-hero-academia-page-11.jpg",
+        "/mangaimages/boku-no-hero-academia-page-12.jpg",
+        "/mangaimages/boku-no-hero-academia-page-13.jpg",
+        "/mangaimages/boku-no-hero-academia-page-14.jpg",
+        "/mangaimages/boku-no-hero-academia-page-15.jpg"
+      ]
     },
     {
       "a": "attack-on-titan---before-the-fall",

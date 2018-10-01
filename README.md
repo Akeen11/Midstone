@@ -1,3 +1,3 @@
-# AniManga #
+# Manga-Go #
 
 ![Capture](Capture.PNG)

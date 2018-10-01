@@ -36,6 +36,11 @@ export default class UserButton extends React.Component {
                             <DropdownItem divider />
                             <DropdownItem
                                 onClick={() => {
+                                    document.location.href = 'http://localhost:3000/manga'
+                                }
+                                }>Home</DropdownItem>
+                            <DropdownItem
+                                onClick={() => {
                                     document.location.href = 'http://localhost:3000/user'
                                 }
                                 }>My Page</DropdownItem>

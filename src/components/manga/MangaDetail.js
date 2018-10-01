@@ -138,7 +138,7 @@ class Example extends Component {
             <div className="details">
 
                 <Card id={`manga--${manga.i}`} key={manga.i} className="detailCard">
-                    <h1>{manga.a}</h1>
+                    <h1>{manga.t}</h1>
                     <CardImg top width="50%" src={manga.im} alt="Card image cap" />
                     <hr />
                     <CardBody>
