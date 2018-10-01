@@ -10,10 +10,7 @@ export default class Favorite extends Component {
             detail => detail.mangaId === this.props.match.params.mangaId
         ) || {}
 
-        // const icon = ""
-        // if(detail) {
-        //     icon = (this.props.detail.isFavorited) ? "favorited" : ""
-        // }
+        const icon = ""
 
         const favorite = { isFavorited: true }
 
@@ -26,7 +23,7 @@ export default class Favorite extends Component {
                     onClick={() =>
                         this.props.editDetail(detail.id, favorite)
                     }
-                    // className={`${icon}`}
+                    className= { `${icon}` }
                     id="heartIcon" />
             </div>
 

@@ -17,7 +17,6 @@ export default class ApplicationViews extends Component {
         users: [],
         manga: [],
         detail: [],
-        // image: {},
         isLoaded: false
     }
 
@@ -68,7 +67,7 @@ export default class ApplicationViews extends Component {
                     })
             })
     }
-
+    
     render() {
         return (
             <React.Fragment>
@@ -99,7 +98,10 @@ export default class ApplicationViews extends Component {
                 }} />
                 <Route exact path="/user" render={(props) => {
                     if (this.isAuthenticated()) {
-                        return <UserPage {...props} />
+                        return <UserPage {...props} 
+                            manga={this.state.manga} 
+                            detail={this.state.detail} 
+                            editDetail={this.editDetail} />
                     } else {
                         return <Redirect to="/" />
                     }

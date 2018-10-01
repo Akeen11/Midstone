@@ -1,5 +1,17 @@
 .users {
-    height: -webkit-fill-available;
-    max-height: 43em;
     color: white
 }
+
+.title {
+    text-align: center
+}
+
+.allDetails {
+    display: flex;
+    justify-content: center;
+}
+
+/* .theDetails {
+    display: flex;
+    justify-content: space-around;
+} */

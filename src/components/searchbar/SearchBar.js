@@ -5,11 +5,13 @@ export default class Search extends Component {
 
     onKeyDown(evt) {
         console.log(evt.target.value)
-        this.props.manga.includes(evt.target.value)
+        console.log(this.props.manga)
+        this.props.manga.a.includes(evt.target.value)
     }
+
     render() {
-        
-        
+
+
         return (
 
             <form className="searchbar">

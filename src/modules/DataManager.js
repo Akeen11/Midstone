@@ -10,7 +10,7 @@ export default Object.create(null, {
 
     getReview: {
         value: (resource, id) => {
-            return fetch(`${remoteURL}/${resource}?mangaId=${id}`)
+            return fetch(`${remoteURL}/${resource}?_sort=date&_order=asc&mangaId=${id}`)
                 .then(result => result.json())
         }
     },
