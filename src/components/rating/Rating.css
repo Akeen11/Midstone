@@ -1,0 +1,7 @@
+.ratings {
+    display: inline-flex
+}
+
+.stars {
+    margin-right: 5em
+}

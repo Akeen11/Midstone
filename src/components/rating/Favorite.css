@@ -1,0 +1,8 @@
+#heartIcon:hover {
+    cursor: pointer;
+    color: red
+}
+
+.favorited {
+    color: red
+}

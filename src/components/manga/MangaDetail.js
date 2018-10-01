@@ -5,19 +5,79 @@ import './MangaDetail.css'
 
 const items = [
     {
-        src: 'data:image/svg+xml;charset=UTF-8,%3Csvg%20width%3D%22800%22%20height%3D%22400%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20800%20400%22%20preserveAspectRatio%3D%22none%22%3E%3Cdefs%3E%3Cstyle%20type%3D%22text%2Fcss%22%3E%23holder_15ba800aa1d%20text%20%7B%20fill%3A%23555%3Bfont-weight%3Anormal%3Bfont-family%3AHelvetica%2C%20monospace%3Bfont-size%3A40pt%20%7D%20%3C%2Fstyle%3E%3C%2Fdefs%3E%3Cg%20id%3D%22holder_15ba800aa1d%22%3E%3Crect%20width%3D%22800%22%20height%3D%22400%22%20fill%3D%22%23777%22%3E%3C%2Frect%3E%3Cg%3E%3Ctext%20x%3D%22285.921875%22%20y%3D%22218.3%22%3EFirst%20slide%3C%2Ftext%3E%3C%2Fg%3E%3C%2Fg%3E%3C%2Fsvg%3E',
-        altText: 'Slide 1',
-        caption: 'Slide 1'
+        src: 'https://i10.mangareader.net/dragon-ball-super/1/dragon-ball-super-5756356.jpg',
+        altText: 'Page 1',
+        caption: 'Page 1'
     },
     {
-        src: 'data:image/svg+xml;charset=UTF-8,%3Csvg%20width%3D%22800%22%20height%3D%22400%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20800%20400%22%20preserveAspectRatio%3D%22none%22%3E%3Cdefs%3E%3Cstyle%20type%3D%22text%2Fcss%22%3E%23holder_15ba800aa20%20text%20%7B%20fill%3A%23444%3Bfont-weight%3Anormal%3Bfont-family%3AHelvetica%2C%20monospace%3Bfont-size%3A40pt%20%7D%20%3C%2Fstyle%3E%3C%2Fdefs%3E%3Cg%20id%3D%22holder_15ba800aa20%22%3E%3Crect%20width%3D%22800%22%20height%3D%22400%22%20fill%3D%22%23666%22%3E%3C%2Frect%3E%3Cg%3E%3Ctext%20x%3D%22247.3203125%22%20y%3D%22218.3%22%3ESecond%20slide%3C%2Ftext%3E%3C%2Fg%3E%3C%2Fg%3E%3C%2Fsvg%3E',
-        altText: 'Slide 2',
-        caption: 'Slide 2'
+        src: 'https://i8.mangareader.net/dragon-ball-super/1/dragon-ball-super-5756358.jpg',
+        altText: 'Page 2',
+        caption: 'Page 2'
     },
     {
-        src: 'data:image/svg+xml;charset=UTF-8,%3Csvg%20width%3D%22800%22%20height%3D%22400%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20800%20400%22%20preserveAspectRatio%3D%22none%22%3E%3Cdefs%3E%3Cstyle%20type%3D%22text%2Fcss%22%3E%23holder_15ba800aa21%20text%20%7B%20fill%3A%23333%3Bfont-weight%3Anormal%3Bfont-family%3AHelvetica%2C%20monospace%3Bfont-size%3A40pt%20%7D%20%3C%2Fstyle%3E%3C%2Fdefs%3E%3Cg%20id%3D%22holder_15ba800aa21%22%3E%3Crect%20width%3D%22800%22%20height%3D%22400%22%20fill%3D%22%23555%22%3E%3C%2Frect%3E%3Cg%3E%3Ctext%20x%3D%22277%22%20y%3D%22218.3%22%3EThird%20slide%3C%2Ftext%3E%3C%2Fg%3E%3C%2Fg%3E%3C%2Fsvg%3E',
-        altText: 'Slide 3',
-        caption: 'Slide 3'
+        src: 'https://i5.mangareader.net/dragon-ball-super/1/dragon-ball-super-5756360.jpg',
+        altText: 'Page 3',
+        caption: 'Page 3'
+    },
+    {
+        src: 'https://i5.mangareader.net/dragon-ball-super/1/dragon-ball-super-5756362.jpg',
+        altText: 'Page 4',
+        caption: 'Page 4'
+    },
+    {
+        src: 'https://i5.mangareader.net/dragon-ball-super/1/dragon-ball-super-5756364.jpg',
+        altText: 'Page 5',
+        caption: 'Page 5'
+    },
+    {
+        src: 'https://i3.mangareader.net/dragon-ball-super/1/dragon-ball-super-5756366.jpg',
+        altText: 'Page 6',
+        caption: 'Page 6'
+    },
+    {
+        src: 'https://i5.mangareader.net/dragon-ball-super/1/dragon-ball-super-5756368.jpg',
+        altText: 'Page 7',
+        caption: 'Page 7'
+    },
+    {
+        src: 'https://i9.mangareader.net/dragon-ball-super/1/dragon-ball-super-5756370.jpg',
+        altText: 'Page 8',
+        caption: 'Page 8'
+    },
+    {
+        src: 'https://i9.mangareader.net/dragon-ball-super/1/dragon-ball-super-5756372.jpg',
+        altText: 'Page 9',
+        caption: 'Page 9'
+    },
+    {
+        src: 'https://i5.mangareader.net/dragon-ball-super/1/dragon-ball-super-5756374.jpg',
+        altText: 'Page 10',
+        caption: 'Page 10'
+    },
+    {
+        src: 'https://i7.mangareader.net/dragon-ball-super/1/dragon-ball-super-5756376.jpg',
+        altText: 'Page 11',
+        caption: 'Page 11'
+    },
+    {
+        src: 'https://i7.mangareader.net/dragon-ball-super/1/dragon-ball-super-5756378.jpg',
+        altText: 'Page 12',
+        caption: 'Page 12'
+    },
+    {
+        src: 'https://i7.mangareader.net/dragon-ball-super/1/dragon-ball-super-5756380.jpg',
+        altText: 'Page 13',
+        caption: 'Page 13'
+    },
+    {
+        src: 'https://i7.mangareader.net/dragon-ball-super/1/dragon-ball-super-5756382.jpg',
+        altText: 'Page 14',
+        caption: 'Page 14'
+    },
+    {
+        src: 'https://i7.mangareader.net/dragon-ball-super/1/dragon-ball-super-5756384.jpg',
+        altText: 'Page 15',
+        caption: 'Page 15'
     }
 ];
 
@@ -69,7 +129,7 @@ class Example extends Component {
             return (
                 <CarouselItem onExiting={this.onExiting} onExited={this.onExited} key={item.src}>
                     <img src={item.src} alt={item.altText} />
-                    <CarouselCaption captionText={item.caption} captionHeader={item.caption} />
+                    <CarouselCaption captionText="" captionHeader={item.caption} className="caption" />
                 </CarouselItem>
             );
         });
@@ -82,10 +142,11 @@ class Example extends Component {
                     <CardImg top width="50%" src={manga.im} alt="Card image cap" />
                     <hr />
                     <CardBody>
-                        <StarRating onClick={() => {
-                            
-                        }}/>
                         <h2>{manga.d}</h2>
+                        <br />
+                        <br />
+                        <br />
+                        <StarRating {...this.props} />
                     </CardBody>
                 </Card>
 

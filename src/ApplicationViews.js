@@ -16,7 +16,7 @@ export default class ApplicationViews extends Component {
     state = {
         users: [],
         manga: [],
-        image: {},
+        detail: [],
         isLoaded: false
     }
 
@@ -38,6 +38,12 @@ export default class ApplicationViews extends Component {
             user: user
         }))
 
+    editDetail = (id, detail) => DataManager.edit("detail", id, detail)
+        .then(() => DataManager.getAll("detail"))
+        .then(details => this.setState({
+            detail: details
+        }))
+
     componentDidMount() {
 
         const newState = {}
@@ -49,14 +55,19 @@ export default class ApplicationViews extends Component {
                 DataManager.getAll("manga")
                     .then(allManga => {
                         newState.manga = allManga
-                    })
-                    .then(() => {
-                        this.setState(newState)
-                        console.log(newState)
+                    }).then(() => {
+                        DataManager.getAll("detail")
+                            .then(allDetail => {
+                                newState.detail = allDetail
+                            })
+                            .then(() => {
+                                this.setState(newState)
+                                console.log(newState)
+                            })
                     })
             })
     }
-
+    
     render() {
         return (
             <React.Fragment>
@@ -78,14 +89,19 @@ export default class ApplicationViews extends Component {
                 <Route exact path="/manga/:mangaId" render={(props) => {
                     if (this.isAuthenticated()) {
                         return <MangaDetail {...props}
-                            manga={this.state.manga} />
+                            manga={this.state.manga} 
+                            detail={this.state.detail}
+                            editDetail={this.editDetail} />
                     } else {
                         return <Redirect to="/" />
                     }
                 }} />
                 <Route exact path="/user" render={(props) => {
                     if (this.isAuthenticated()) {
-                        return <UserPage {...props} />
+                        return <UserPage {...props} 
+                            manga={this.state.manga} 
+                            detail={this.state.detail} 
+                            editDetail={this.editDetail} />
                     } else {
                         return <Redirect to="/" />
                     }
