@@ -5,6 +5,12 @@
       "email": "aartkeen@ut.utm.edu",
       "password": "asdf",
       "id": 1
+    },
+    {
+      "username": "aartkeen",
+      "email": "aartkeen@ut.utm.edu",
+      "password": "Football11",
+      "id": 2
     }
   ],
   "detail": [

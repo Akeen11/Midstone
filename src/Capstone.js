@@ -14,7 +14,7 @@ export default class Capstone extends Component {
       <div className="Capstone">
         <header className="Capstone-header">
           <UserButton />
-          <a href="/manga"> <img src={logo} className="Capstone-logo" alt="logo" /></a>
+          <a href="/manga"> <img src={logo} className="Capstone-logo" alt="logo"/></a>
           <Logout />
         </header>
         <ApplicationViews />

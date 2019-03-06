@@ -26,8 +26,7 @@ export default class UserPage extends Component {
             <div className="users">
                 <h1>Name: {user.username}</h1>
                 <p>Email: {user.email}</p>
-                <img src={`/cardimages/userimage.jpg`} alt="" />
-                <br />
+                <img src={`/cardimages/Headshot.jpg`} alt="" height="450em" width="350em"/>
                 <br />
                 <br />
                 <br />
